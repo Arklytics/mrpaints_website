@@ -1,0 +1,3 @@
+import {ProductCards, CTA} from '../site';
+export const metadata={title:'Our products'};
+export default function Products(){return <main id="main"><section className="page-intro"><span className="eyebrow">THE MR PAINTS RANGE</span><h1>A finish for<br/><em>every beginning.</em></h1><p>Explore paints and preparation for your next project. Contact us for available products, finishes, pack sizes and technical guidance.</p></section><section className="section compact"><ProductCards full/><div className="advice"><h3>The right finish starts with the right surface.</h3><p>Tell us what you're painting, whether it's indoors or outdoors, and the finish you have in mind. Our team can help you check product suitability before you order.</p></div></section><CTA/></main>}
